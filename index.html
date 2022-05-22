@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="start_btn"><button>Start Quiz</button>
+        <p>30 seconds to complete quiz. Wrong answer loose time !</p>
+    </div>
+    <div class="container">
+        <div id="quiz">
+            <h1>Quiz</h1>
+            <p id="question"></p>
+            <div class=" buttons">
+                <button id="btn0"><span id="options0"></span></button>
+                <button id="btn1"><span id="options1"></span></button>
+                <button id="btn2"><span id="options2"></span></button>
+                <button id="btn3"><span id="options3"></span></button>
+            </div>
+            <footer>
+                <p id="progression">Question x of y</p>
+            </footer>
+        </div>
+    </div>
+    <script src="/assets/js/questions.js"></script>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
